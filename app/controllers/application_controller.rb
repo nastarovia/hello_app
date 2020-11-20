@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
   def hello
-render html: 'La vida inmaterial del mundo: <i>una poesía</i>'
+render html: 'Hola mundo, mudafaquers'
   end
   def goodBye
-render html: 'otra cosa, marisopax'
+render html: 'otra cosa, marisopax: again lo digo!'
   end
 end
